@@ -52,7 +52,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  margin-left: auto;
 }
 
 button {
@@ -73,15 +72,14 @@ button.cancel {
   color: royalblue;
 }
 
-.title{
-  display: flex;
-}
-
 .text{
   margin: 10px 0;
 }
 
 .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: bold;
   font-size: 18px;
 }
